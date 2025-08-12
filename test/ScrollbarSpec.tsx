@@ -54,7 +54,7 @@ describe('Scrollbar', () => {
 
   it('Should update scroll handle position without triggering onScroll', async () => {
     const ref = React.createRef<ScrollbarInstance>();
-    
+
     await act(async () => {
       render(<Scrollbar length={100} scrollLength={1000} ref={ref} />);
     });

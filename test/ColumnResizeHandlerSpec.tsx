@@ -22,11 +22,12 @@ describe('ColumnResizeHandler', () => {
   it('Should have a `left` style', () => {
     const columnWidth = 100;
     const columnLeft = 100;
-    render(
-      <ColumnResizeHandler defaultColumnWidth={columnWidth} columnLeft={columnLeft} />
-    );
+    render(<ColumnResizeHandler defaultColumnWidth={columnWidth} columnLeft={columnLeft} />);
 
-    expect(screen.getByRole('button')).to.style('left', `${columnWidth + columnLeft + handlerLeft}px`);
+    expect(screen.getByRole('button')).to.style(
+      'left',
+      `${columnWidth + columnLeft + handlerLeft}px`
+    );
   });
 
   it('Should call `onColumnResizeStart` callback ', done => {
