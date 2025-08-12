@@ -1,13 +1,13 @@
 {
   "name": "sl-kit-table.git",
   "title": "React Table Component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React table component",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "module": "es/index.js",
   "scripts": {
-    "pub" : "npm version patch && npm publish",
+    "pub": "npm version patch && npm publish",
     "format": "prettier --write \"{src,test}/**/*.{tsx,ts,js}\"",
     "format:check": "prettier --list-different \"{src,test}/**/*.{tsx,ts,js}\"",
     "dist:pro": "webpack --mode production --progress --config webpack.build.config.js",
