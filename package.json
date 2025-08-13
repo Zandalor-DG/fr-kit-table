@@ -1,6 +1,6 @@
 {
   "name": "sl-kit-table",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "React Table Component",
   "description": "A React table component",
   "main": "lib/index.js",
